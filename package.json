@@ -9,11 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tiptap/extension-heading": "^2.1.7",
+    "@tiptap/pm": "^2.1.7",
+    "@tiptap/react": "^2.1.7",
+    "@tiptap/starter-kit": "^2.1.7",
     "@types/node": "20.5.8",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "@types/sortablejs": "^1.15.0",
+    "apexcharts": "^3.36.3",
     "autoprefixer": "10.4.15",
+    "classnames": "^2.3.2",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "flowbite": "^1.8.1",
@@ -21,12 +27,14 @@
     "next": "13.4.19",
     "postcss": "8.4.29",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.2.2",
-    "apexcharts": "^3.36.3",
-    "classnames": "^2.3.2",
     "react-apexcharts": "^1.4.0",
-    "react-icons": "^4.7.1"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1"
   }
 }
